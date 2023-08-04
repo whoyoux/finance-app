@@ -51,10 +51,13 @@ const UserDropdown = () => {
                 </DropdownMenuItem>
 
                 <DropdownMenuSeparator />
-                <DropdownMenuItem>
-                    Github
-                    <DropdownMenuShortcut>⌘G</DropdownMenuShortcut>
-                </DropdownMenuItem>
+
+                <Link href="https://github.com/whoyoux" target="_blank">
+                    <DropdownMenuItem>
+                        Github
+                        <DropdownMenuShortcut>⌘G</DropdownMenuShortcut>
+                    </DropdownMenuItem>
+                </Link>
 
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
